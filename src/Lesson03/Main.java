@@ -11,8 +11,10 @@ public class Main {
         System.out.println("------------------------------------------------------------");
             Integer[] intArr = {1, 4, 5, 6};
             String[] strArr = {"One", "Two", "Three"};
+            Double[] doubles = {1.0, 3.4, 3.5, 2.3};
             swapArrayElement(intArr, 0, 3);
             swapArrayElement(strArr, 0, 2);
+            swapArrayElement(doubles, 0, 1);
         }
 
     public static void homeWorkMethod () {
